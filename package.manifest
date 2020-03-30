@@ -1,0 +1,18 @@
+﻿{
+    "gridEditors": [
+        {
+            "name": "Youtube Video Editor",
+            "alias": "Youtube Grid Editor",
+            "view": "~/App_Plugins/GridYoutubeEditor/YoutubeEditor.html",
+            "icon": "icon-movie-alt",
+            "config": {
+                "color": "red",
+                "text-align": "right"
+            }
+        }
+    ],
+	javascript:[
+        "/app_plugins/GridYoutubeEditor/editor.controller.js",
+        "/app_plugins/GridYoutubeEditor/infiniteeditor.controller.js"
+    ]
+}
